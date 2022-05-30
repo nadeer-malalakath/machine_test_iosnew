@@ -22,11 +22,10 @@
 		04278DAF28427F54003023D5 /* ProductCvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278DAE28427F54003023D5 /* ProductCvCell.swift */; };
 		04285F172844C300002B3B38 /* BannersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04285F162844C300002B3B38 /* BannersViewModel.swift */; };
 		04285F192844C3A9002B3B38 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04285F182844C3A9002B3B38 /* ProductsViewModel.swift */; };
-		4AADF6FF9D9F402DF9DCDFE6 /* Pods_Web_and_Craft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0232BB423A566416AE17D5B3 /* Pods_Web_and_Craft.framework */; };
+		54523D3A775346398C97548E /* Pods_Web_and_Craft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC5A6DA535CF653D5606A4E /* Pods_Web_and_Craft.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0232BB423A566416AE17D5B3 /* Pods_Web_and_Craft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Web_and_Craft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04278D762841E8EE003023D5 /* Web and Craft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web and Craft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04278D792841E8EE003023D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04278D7B2841E8EE003023D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +43,9 @@
 		04278DAE28427F54003023D5 /* ProductCvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCvCell.swift; sourceTree = "<group>"; };
 		04285F162844C300002B3B38 /* BannersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersViewModel.swift; sourceTree = "<group>"; };
 		04285F182844C3A9002B3B38 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
-		814A898122F05B40DE23FDA1 /* Pods-Web and Craft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web and Craft.debug.xcconfig"; path = "Target Support Files/Pods-Web and Craft/Pods-Web and Craft.debug.xcconfig"; sourceTree = "<group>"; };
-		9C82347FB097C19C7A90176A /* Pods-Web and Craft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web and Craft.release.xcconfig"; path = "Target Support Files/Pods-Web and Craft/Pods-Web and Craft.release.xcconfig"; sourceTree = "<group>"; };
+		2D00B05B2F5DC2025FC426E4 /* Pods-Web and Craft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web and Craft.debug.xcconfig"; path = "Target Support Files/Pods-Web and Craft/Pods-Web and Craft.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC5A6DA535CF653D5606A4E /* Pods_Web_and_Craft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Web_and_Craft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D270A5F4CA3A622BA3EA093 /* Pods-Web and Craft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web and Craft.release.xcconfig"; path = "Target Support Files/Pods-Web and Craft/Pods-Web and Craft.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AADF6FF9D9F402DF9DCDFE6 /* Pods_Web_and_Craft.framework in Frameworks */,
+				54523D3A775346398C97548E /* Pods_Web_and_Craft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 				04278D782841E8EE003023D5 /* Web and Craft */,
 				04278D772841E8EE003023D5 /* Products */,
 				1BECF36E79228A8DDFF825D3 /* Pods */,
-				147F8DB321ADE806CF0374AF /* Frameworks */,
+				4E506C13C109112E8D84CA81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +86,6 @@
 				04278D8F2841E9A8003023D5 /* Model */,
 				04278D902841E9BE003023D5 /* View */,
 				04278D962841EBBD003023D5 /* View Model */,
-				04278D932841EAB3003023D5 /* Controller */,
 				04278D822841E8F3003023D5 /* Assets.xcassets */,
 				04278D842841E8F3003023D5 /* LaunchScreen.storyboard */,
 				04278D872841E8F3003023D5 /* Info.plist */,
@@ -107,7 +106,9 @@
 		04278D902841E9BE003023D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				04278D912841EA53003023D5 /* Main.storyboard */,
+				04F2DCCD28450139004A8C5C /* storyboard */,
+				04278D932841EAB3003023D5 /* Controller */,
+				04F2DCCC2845010D004A8C5C /* cell */,
 			);
 			name = View;
 			path = "New Group/View";
@@ -117,9 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				04278D942841EB5B003023D5 /* HomeVC.swift */,
-				04278DAA28422AC8003023D5 /* CategoryCvCell.swift */,
-				04278DAC28427CDA003023D5 /* BannerCvCell.swift */,
-				04278DAE28427F54003023D5 /* ProductCvCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -134,21 +132,39 @@
 			path = "View Model";
 			sourceTree = "<group>";
 		};
-		147F8DB321ADE806CF0374AF /* Frameworks */ = {
+		04F2DCCC2845010D004A8C5C /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				0232BB423A566416AE17D5B3 /* Pods_Web_and_Craft.framework */,
+				04278DAA28422AC8003023D5 /* CategoryCvCell.swift */,
+				04278DAC28427CDA003023D5 /* BannerCvCell.swift */,
+				04278DAE28427F54003023D5 /* ProductCvCell.swift */,
 			);
-			name = Frameworks;
+			path = cell;
+			sourceTree = "<group>";
+		};
+		04F2DCCD28450139004A8C5C /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				04278D912841EA53003023D5 /* Main.storyboard */,
+			);
+			path = storyboard;
 			sourceTree = "<group>";
 		};
 		1BECF36E79228A8DDFF825D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				814A898122F05B40DE23FDA1 /* Pods-Web and Craft.debug.xcconfig */,
-				9C82347FB097C19C7A90176A /* Pods-Web and Craft.release.xcconfig */,
+				2D00B05B2F5DC2025FC426E4 /* Pods-Web and Craft.debug.xcconfig */,
+				9D270A5F4CA3A622BA3EA093 /* Pods-Web and Craft.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E506C13C109112E8D84CA81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC5A6DA535CF653D5606A4E /* Pods_Web_and_Craft.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04278D8A2841E8F3003023D5 /* Build configuration list for PBXNativeTarget "Web and Craft" */;
 			buildPhases = (
-				83D577652A795C63235C1158 /* [CP] Check Pods Manifest.lock */,
+				F9A601197E0E4717C76FB08C /* [CP] Check Pods Manifest.lock */,
 				04278D722841E8EE003023D5 /* Sources */,
 				04278D732841E8EE003023D5 /* Frameworks */,
 				04278D742841E8EE003023D5 /* Resources */,
-				795EE5914BA5FA90AEF7C235 /* [CP] Embed Pods Frameworks */,
+				B2CBE0C826F467B3258527F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,7 +236,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		795EE5914BA5FA90AEF7C235 /* [CP] Embed Pods Frameworks */ = {
+		B2CBE0C826F467B3258527F5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,7 +253,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Web and Craft/Pods-Web and Craft-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83D577652A795C63235C1158 /* [CP] Check Pods Manifest.lock */ = {
+		F9A601197E0E4717C76FB08C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,7 +427,7 @@
 		};
 		04278D8B2841E8F3003023D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 814A898122F05B40DE23FDA1 /* Pods-Web and Craft.debug.xcconfig */;
+			baseConfigurationReference = 2D00B05B2F5DC2025FC426E4 /* Pods-Web and Craft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +455,7 @@
 		};
 		04278D8C2841E8F3003023D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C82347FB097C19C7A90176A /* Pods-Web and Craft.release.xcconfig */;
+			baseConfigurationReference = 9D270A5F4CA3A622BA3EA093 /* Pods-Web and Craft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
