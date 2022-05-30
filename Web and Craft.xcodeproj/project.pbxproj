@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04278D7A2841E8EE003023D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278D792841E8EE003023D5 /* AppDelegate.swift */; };
+		04278D7C2841E8EE003023D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278D7B2841E8EE003023D5 /* SceneDelegate.swift */; };
+		04278D832841E8F3003023D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04278D822841E8F3003023D5 /* Assets.xcassets */; };
+		04278D862841E8F3003023D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04278D842841E8F3003023D5 /* LaunchScreen.storyboard */; };
+		04278D922841EA53003023D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04278D912841EA53003023D5 /* Main.storyboard */; };
+		04278D952841EB5B003023D5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278D942841EB5B003023D5 /* HomeVC.swift */; };
+		04278D982841ED3F003023D5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278D972841ED3F003023D5 /* Category.swift */; };
+		04278D9A2841ED51003023D5 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278D992841ED51003023D5 /* Products.swift */; };
+		04278D9C2841ED83003023D5 /* Banners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278D9B2841ED83003023D5 /* Banners.swift */; };
+		04278D9F2841F0C9003023D5 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278D9E2841F0C9003023D5 /* CategoryViewModel.swift */; };
+		04278DAB28422AC8003023D5 /* CategoryCvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278DAA28422AC8003023D5 /* CategoryCvCell.swift */; };
+		04278DAD28427CDA003023D5 /* BannerCvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278DAC28427CDA003023D5 /* BannerCvCell.swift */; };
+		04278DAF28427F54003023D5 /* ProductCvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04278DAE28427F54003023D5 /* ProductCvCell.swift */; };
+		04285F172844C300002B3B38 /* BannersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04285F162844C300002B3B38 /* BannersViewModel.swift */; };
+		04285F192844C3A9002B3B38 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04285F182844C3A9002B3B38 /* ProductsViewModel.swift */; };
+		4AADF6FF9D9F402DF9DCDFE6 /* Pods_Web_and_Craft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0232BB423A566416AE17D5B3 /* Pods_Web_and_Craft.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0232BB423A566416AE17D5B3 /* Pods_Web_and_Craft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Web_and_Craft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04278D762841E8EE003023D5 /* Web and Craft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web and Craft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04278D792841E8EE003023D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04278D7B2841E8EE003023D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04278D822841E8F3003023D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04278D852841E8F3003023D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04278D872841E8F3003023D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04278D912841EA53003023D5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04278D942841EB5B003023D5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		04278D972841ED3F003023D5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		04278D992841ED51003023D5 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		04278D9B2841ED83003023D5 /* Banners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banners.swift; sourceTree = "<group>"; };
+		04278D9E2841F0C9003023D5 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		04278DAA28422AC8003023D5 /* CategoryCvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCvCell.swift; sourceTree = "<group>"; };
+		04278DAC28427CDA003023D5 /* BannerCvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCvCell.swift; sourceTree = "<group>"; };
+		04278DAE28427F54003023D5 /* ProductCvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCvCell.swift; sourceTree = "<group>"; };
+		04285F162844C300002B3B38 /* BannersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersViewModel.swift; sourceTree = "<group>"; };
+		04285F182844C3A9002B3B38 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		814A898122F05B40DE23FDA1 /* Pods-Web and Craft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web and Craft.debug.xcconfig"; path = "Target Support Files/Pods-Web and Craft/Pods-Web and Craft.debug.xcconfig"; sourceTree = "<group>"; };
+		9C82347FB097C19C7A90176A /* Pods-Web and Craft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web and Craft.release.xcconfig"; path = "Target Support Files/Pods-Web and Craft/Pods-Web and Craft.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04278D732841E8EE003023D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AADF6FF9D9F402DF9DCDFE6 /* Pods_Web_and_Craft.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04278D6D2841E8EE003023D5 = {
+			isa = PBXGroup;
+			children = (
+				04278D782841E8EE003023D5 /* Web and Craft */,
+				04278D772841E8EE003023D5 /* Products */,
+				1BECF36E79228A8DDFF825D3 /* Pods */,
+				147F8DB321ADE806CF0374AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04278D772841E8EE003023D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04278D762841E8EE003023D5 /* Web and Craft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04278D782841E8EE003023D5 /* Web and Craft */ = {
+			isa = PBXGroup;
+			children = (
+				04278D792841E8EE003023D5 /* AppDelegate.swift */,
+				04278D7B2841E8EE003023D5 /* SceneDelegate.swift */,
+				04278D8F2841E9A8003023D5 /* Model */,
+				04278D902841E9BE003023D5 /* View */,
+				04278D962841EBBD003023D5 /* View Model */,
+				04278D932841EAB3003023D5 /* Controller */,
+				04278D822841E8F3003023D5 /* Assets.xcassets */,
+				04278D842841E8F3003023D5 /* LaunchScreen.storyboard */,
+				04278D872841E8F3003023D5 /* Info.plist */,
+			);
+			path = "Web and Craft";
+			sourceTree = "<group>";
+		};
+		04278D8F2841E9A8003023D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04278D972841ED3F003023D5 /* Category.swift */,
+				04278D9B2841ED83003023D5 /* Banners.swift */,
+				04278D992841ED51003023D5 /* Products.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04278D902841E9BE003023D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04278D912841EA53003023D5 /* Main.storyboard */,
+			);
+			name = View;
+			path = "New Group/View";
+			sourceTree = "<group>";
+		};
+		04278D932841EAB3003023D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04278D942841EB5B003023D5 /* HomeVC.swift */,
+				04278DAA28422AC8003023D5 /* CategoryCvCell.swift */,
+				04278DAC28427CDA003023D5 /* BannerCvCell.swift */,
+				04278DAE28427F54003023D5 /* ProductCvCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04278D962841EBBD003023D5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				04278D9E2841F0C9003023D5 /* CategoryViewModel.swift */,
+				04285F162844C300002B3B38 /* BannersViewModel.swift */,
+				04285F182844C3A9002B3B38 /* ProductsViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		147F8DB321ADE806CF0374AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0232BB423A566416AE17D5B3 /* Pods_Web_and_Craft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BECF36E79228A8DDFF825D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				814A898122F05B40DE23FDA1 /* Pods-Web and Craft.debug.xcconfig */,
+				9C82347FB097C19C7A90176A /* Pods-Web and Craft.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04278D752841E8EE003023D5 /* Web and Craft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04278D8A2841E8F3003023D5 /* Build configuration list for PBXNativeTarget "Web and Craft" */;
+			buildPhases = (
+				83D577652A795C63235C1158 /* [CP] Check Pods Manifest.lock */,
+				04278D722841E8EE003023D5 /* Sources */,
+				04278D732841E8EE003023D5 /* Frameworks */,
+				04278D742841E8EE003023D5 /* Resources */,
+				795EE5914BA5FA90AEF7C235 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web and Craft";
+			productName = "Web and Craft";
+			productReference = 04278D762841E8EE003023D5 /* Web and Craft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04278D6E2841E8EE003023D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					04278D752841E8EE003023D5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 04278D712841E8EE003023D5 /* Build configuration list for PBXProject "Web and Craft" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04278D6D2841E8EE003023D5;
+			productRefGroup = 04278D772841E8EE003023D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04278D752841E8EE003023D5 /* Web and Craft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04278D742841E8EE003023D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04278D922841EA53003023D5 /* Main.storyboard in Resources */,
+				04278D862841E8F3003023D5 /* LaunchScreen.storyboard in Resources */,
+				04278D832841E8F3003023D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		795EE5914BA5FA90AEF7C235 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Web and Craft/Pods-Web and Craft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Web and Craft/Pods-Web and Craft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Web and Craft/Pods-Web and Craft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D577652A795C63235C1158 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Web and Craft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04278D722841E8EE003023D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04278D9A2841ED51003023D5 /* Products.swift in Sources */,
+				04278D9C2841ED83003023D5 /* Banners.swift in Sources */,
+				04278D7A2841E8EE003023D5 /* AppDelegate.swift in Sources */,
+				04285F172844C300002B3B38 /* BannersViewModel.swift in Sources */,
+				04278DAB28422AC8003023D5 /* CategoryCvCell.swift in Sources */,
+				04278D7C2841E8EE003023D5 /* SceneDelegate.swift in Sources */,
+				04285F192844C3A9002B3B38 /* ProductsViewModel.swift in Sources */,
+				04278D952841EB5B003023D5 /* HomeVC.swift in Sources */,
+				04278DAD28427CDA003023D5 /* BannerCvCell.swift in Sources */,
+				04278D982841ED3F003023D5 /* Category.swift in Sources */,
+				04278DAF28427F54003023D5 /* ProductCvCell.swift in Sources */,
+				04278D9F2841F0C9003023D5 /* CategoryViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04278D842841E8F3003023D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04278D852841E8F3003023D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04278D882841E8F3003023D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04278D892841E8F3003023D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04278D8B2841E8F3003023D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814A898122F05B40DE23FDA1 /* Pods-Web and Craft.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Web and Craft/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Web-and-Craft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04278D8C2841E8F3003023D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C82347FB097C19C7A90176A /* Pods-Web and Craft.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Web and Craft/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Web-and-Craft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04278D712841E8EE003023D5 /* Build configuration list for PBXProject "Web and Craft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04278D882841E8F3003023D5 /* Debug */,
+				04278D892841E8F3003023D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04278D8A2841E8F3003023D5 /* Build configuration list for PBXNativeTarget "Web and Craft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04278D8B2841E8F3003023D5 /* Debug */,
+				04278D8C2841E8F3003023D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04278D6E2841E8EE003023D5 /* Project object */;
+}
